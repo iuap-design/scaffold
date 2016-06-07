@@ -1,0 +1,22 @@
+{
+  "name": "scaffold",
+  "version": "1.0.0",
+  "description": "iuap-design scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuap-design/scaffold.git"
+  },
+  "author": "YY-FED",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iuap-design/scaffold/issues"
+  },
+  "homepage": "https://github.com/iuap-design/scaffold#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
