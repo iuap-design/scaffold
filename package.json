@@ -1,6 +1,6 @@
 {
   "name": "scaffold",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "iuap-design scaffold",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,16 @@
   "devDependencies": {
     "eslint": "^3.0.1",
     "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-react": "^5.2.2",
-    "gulp": "^3.9.1"
-  }
+    "eslint-plugin-react": "^5.2.2"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {},
+  "keywords": [
+    "font-end",
+    "progect",
+    "open-source"
+  ]
 }
