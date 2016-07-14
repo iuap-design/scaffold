@@ -1,19 +1,21 @@
-# scaffold
-
-标准化项目目录结构
+# 前端标准化项目目录结构
 
 ## 目录说明
 
 ```
-├─conf 配置文件
-├─dist 产出后的资源
-├─docs 文档相关
-├─node_modules npm下载的包资源
-└─src 源码目录
-    ├─common 公共资源
-    │  ├─style 样式
-    │  ├─util 封装的工具方法等
-    │  └─vendor 第三方资源
-    └─pages 各种页面
-        └─page1 其中一个目录
+.babelrc  # babel 配置文件
+.eslintrc # eslint 代码规则检查配置文件
+.gitignore # git 忽略提交文件配置
+.travis.yml # ci 持续集成构建配置
+CHANGELOG.md # 项目更改日志记录
+conf/ # 整体配置文件，构建相关
+CONTRIBUTING.md # 如何参与贡献代码
+dist/ # 构建产出资源
+docs/ # 项目文档
+LICENSE # 版权说明
+node_modules/ # node 安装包下载目录
+package.json # npm 包管理配置
+README.md # 项目整体说明
+src/ # 开发源代码
+test/ # 测试代码
 ```

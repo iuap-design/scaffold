@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/iuap-design/scaffold#readme",
   "devDependencies": {
+    "eslint": "^3.0.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.2.2",
     "gulp": "^3.9.1"
   }
 }
