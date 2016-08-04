@@ -4,7 +4,10 @@
   "description": "iuap-design scaffold",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "es": "babel src -d lib",
+    "dev": "webpack-dev-server --colors --progress"
   },
   "repository": {
     "type": "git",
@@ -17,9 +20,15 @@
   },
   "homepage": "https://github.com/iuap-design/scaffold#readme",
   "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-preset-es2015": "^6.9.0",
     "eslint": "^3.0.1",
     "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint-plugin-react": "^5.2.2",
+    "webpack": "^1.13.1"
   },
   "directories": {
     "doc": "docs",
